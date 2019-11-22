@@ -15,7 +15,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: debian:stretch
+      - image: haider00125/pluralsight-docker-ci
 
     steps:
       - checkout
